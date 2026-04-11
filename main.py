@@ -14,4 +14,4 @@ def conexao(user_f, user_c):
         cursor.close()
         conn.close()
     except sqlite3.Error as e: return str(e)
-    return True, dados
+    return e, dados
