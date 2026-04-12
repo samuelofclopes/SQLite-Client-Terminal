@@ -1,39 +1,41 @@
-# SQLite-Client-Terminal
-============= SQLite Terminal ==========================================================
+SQLite-Client-Terminal
+=========================================================
 
-Um terminal interativo desenvolvido em Python utilizando Tkinter para gerir bases de dados SQLite de forma visual e rápida.
+Este projeto é uma imitação de umterminal desenvolvido em Python utilizando Tkinter para gerir bases de dados SQLite de forma visual e rápida.
 
-============= Funcionalidades ==========================================================
+Funcionalidades
+==========================================================
 
-Conexão: Selecione qualquer arquivo .db ou .sqlite através do explorador de arquivos.
+Conexão permite que o utilizador selecione qualquer arquivo .db, .sqlite, etc, através do explorador de arquivos.
 
-Execução SQL: Suporte total para comandos DDL (CREATE, DROP) e DML (SELECT, INSERT, UPDATE, DELETE).
+ Tem suporte total para comandos DDL (CREATE, DROP) e DML (SELECT, INSERT, UPDATE, DELETE).
 
-Interface Responsiva: Inclui barra de rolagem customizada para lidar com grandes volumes de dados.
+A inteface inclui barra de rolagem customizada para lidar com grandes volumes de dados.
 
-Segurança: Implementação de gerenciadores de contexto (with) para evitar corrupção de dados.
+Tecnologias utilizadas
+==========================================================
 
-============= Tecnologias Utilizadas ===================================================
+Python
 
-Python 3.x
-
-Tkinter (Interface Gráfica)
+Tkinter (Para a interface gráfica)
 
 SQLite3 (Motor de Base de Dados)
 
-============= Como usar ================================================================
+Como usar
+==========================================================
 
-Clonar o repositório com git clone
+Clonar o repositório com git clone, ou baixar diretamente no seu computador.
 
-Executar o "interface.py"
+Executar o "interface.py" - (Carregar uma tela feita em Tkinter)
 
-Clicar em Select File para carregar sua base de dados.
+Clicar em Select File para carregar sua base de dados. - (Aparece o caminho exato da sua base de dados no meio superior. )
 
-Digitar um comando SQL na caixa superior.
+Digitar um comando SQL na caixa de texto superior.
 
-Pressione Enter para executar e ver o resultado na área inferior.
+Pressionar Enter para executar e ver o resultado na área inferior.
 
-============= Porque eu o fiz? ===========================================================
+Porque eu o fiz?
+==========================================================
 
-Este é um projeto apenas de estudo, feito para aprender a usar SQLite. 
-Fica à vontade para abrir uma issue ou enviar um pull request com melhorias.
+Este projeto foi feito apenas para estudo e aprendizado, feito para aprender a usar SQLite e bases de dados no geral. 
+
