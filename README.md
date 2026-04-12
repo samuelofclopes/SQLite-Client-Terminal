@@ -1,7 +1,7 @@
 SQLite-Client-Terminal
 =========================================================
 
-Este projeto é uma imitação de umterminal desenvolvido em Python utilizando Tkinter para gerir bases de dados SQLite de forma visual e rápida.
+Este projeto é uma imitação de um terminal desenvolvido em Python utilizando Tkinter para gerir bases de dados SQLite de forma visual e rápida.
 
 Funcionalidades
 ==========================================================
@@ -11,6 +11,8 @@ Conexão permite que o utilizador selecione qualquer arquivo .db, .sqlite, etc, 
  Tem suporte total para comandos DDL (CREATE, DROP) e DML (SELECT, INSERT, UPDATE, DELETE).
 
 A inteface inclui barra de rolagem customizada para lidar com grandes volumes de dados.
+
+Tratamento de erros de sintaxe, com aparição amigavél para o utilizador saber onde está o erro.
 
 Tecnologias utilizadas
 ==========================================================
