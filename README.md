@@ -1,34 +1,43 @@
-# SQLite-Client-Terminal
-============= SQLite Terminal =============================================================================
-Um terminal interativo desenvolvido em Python utilizando Tkinter para gerir bases de dados SQLite de forma visual e rápida.
+SQLite-Client-Terminal
+=========================================================
 
-============= Funcionalidades =============================================================================
-Conexão: Selecione qualquer arquivo .db ou .sqlite através do explorador de arquivos.
+Este projeto é uma imitação de um terminal desenvolvido em Python utilizando Tkinter para gerir bases de dados SQLite de forma visual e rápida.
 
-Execução SQL: Suporte total para comandos DDL (CREATE, DROP) e DML (SELECT, INSERT, UPDATE, DELETE).
+Funcionalidades
+==========================================================
 
-Interface Responsiva: Inclui barra de rolagem customizada para lidar com grandes volumes de dados.
+Conexão permite que o utilizador selecione qualquer arquivo .db, .sqlite, etc, através do explorador de arquivos.
 
-Segurança: Implementação de gerenciadores de contexto (with) para evitar corrupção de dados.
+ Tem suporte total para comandos DDL (CREATE, DROP) e DML (SELECT, INSERT, UPDATE, DELETE).
 
-============= Tecnologias Utilizadas =============================================================================
-Python 3.x
+A inteface inclui barra de rolagem customizada para lidar com grandes volumes de dados.
 
-Tkinter (Interface Gráfica)
+Tratamento de erros de sintaxe, com aparição amigavél para o utilizador saber onde está o erro.
+
+Tecnologias utilizadas
+==========================================================
+
+Python
+
+Tkinter (Para a interface gráfica)
 
 SQLite3 (Motor de Base de Dados)
 
-============= Como usar =============================================================================
-Clonar o repositório com git clone
+Como usar
+==========================================================
 
-Executar o "interface.py"
+Clonar o repositório com git clone, ou baixar diretamente no seu computador.
 
-Clicar em Select File para carregar sua base de dados.
+Executar o "interface.py" - (Carregar uma tela feita em Tkinter)
 
-Digitar um comando SQL na caixa superior.
+Clicar em Select File para carregar sua base de dados. - (Aparece o caminho exato da sua base de dados no meio superior. )
 
-Pressione Enter para executar e ver o resultado na área inferior.
+Digitar um comando SQL na caixa de texto superior.
 
-============= Porque eu o fiz? =============================================================================
-Este é um projeto apenas de estudo, feito para aprender a usar SQLite. 
-Fica à vontade para abrir uma issue ou enviar um pull request com melhorias.
+Pressionar Enter para executar e ver o resultado na área inferior.
+
+Porque eu o fiz?
+==========================================================
+
+Este projeto foi feito apenas para estudo e aprendizado, feito para aprender a usar SQLite e bases de dados no geral. 
+
