@@ -28,7 +28,7 @@ Como usar
 
 Clonar o repositório com git clone, ou baixar diretamente no seu computador.
 
-Executar o "interface.py" - (Carregar uma tela feita em Tkinter)
+Executar o "main.py" - (Carregar uma tela feita em Tkinter)
 
 Clicar em Select File para carregar sua base de dados. - (Aparece o caminho exato da sua base de dados no meio superior. )
 
